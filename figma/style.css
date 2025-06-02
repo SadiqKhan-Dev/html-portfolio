@@ -689,7 +689,7 @@ body::before {
   margin-top: 180px;
   background: linear-gradient(90deg, #DBFF00, #0F172A);
   background-size: 200% 200%;
-  animation: gradientShift 1s ease infinite;
+  animation: gradientShift 1.5s ease infinite;
 }
 
 @keyframes gradientShift {
@@ -711,6 +711,7 @@ body::before {
   background-color: #0F172A;
   width: 1358px;
   height: 225px;
+  margin-top: 8px;
 }
 
 .lang-heading h2 {
